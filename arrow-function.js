@@ -11,12 +11,12 @@ const soma = (num1, num2) => num1 + num2;
 const somaNumerosPequenos = (num1, num2) => {
     if (num1 || num2 > 10){
         return "Somente números de 1 a 9";
-    } else{
+    } else {
         return num1 + num2;
     }
 }
 
-// Hoisting: arrow function se comporta como expressão de função, ou seja, não sofre a elevação que a declaração de função e a var recebem.
+// Hoisting: arrow function se comporta como expressão de função, ou seja, não sofre a elevação que a declaração de função e a var sofrem.
 
 // operador maior ou igual que
 // >=
