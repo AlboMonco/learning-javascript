@@ -6,7 +6,7 @@ function apresentar(nome){
 const apresentarArrow = nome => `meu nome é ${nome}`;
 const soma = (num1, num2) => num1 + num2;
 
-//Arrow function com + de 1 liha de instrução
+//Arrow function com + de 1 linha de instrução
 
 const somaNumerosPequenos = (num1, num2) => {
     if (num1 || num2 > 10){
@@ -21,3 +21,6 @@ const somaNumerosPequenos = (num1, num2) => {
 // operador maior ou igual que
 // >=
 
+function algo(){
+    return true;
+}

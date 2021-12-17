@@ -28,11 +28,3 @@ console.log(alura + primeiroNumero);
 // .toLocaleString() -> converte um número para uma string. Recebe os argumentos style (decimal, currency(moeda), percent(formato percentual)) e currency(moeda a ser usada)
 // Math.ceil(numero) -> retorna o maior número inteiro que é maior que o número passado
 // Math.floor() -> retorna o menor número inteiro que é menor que o número passado
-
-
-
-
-
-
-
-
