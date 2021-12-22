@@ -1,5 +1,5 @@
-//var 
-// Function scope, pode ser reassigned, pode ser redeclared e pode ser declarada depois do uso
+//// var 
+// Function scope, pode ser reatribuída, pode ser redeclarada e pode ser declarada depois do uso.
 // var altura = 5;
 // var comprimento = 7;
 // 
@@ -7,8 +7,8 @@
 // console.log(area);
 // var area;
 
-// let
-// Block scope, não pode ser reassigned, pode ser redeclared e não pode ser declarada depois.
+//// let
+// Block scope, pode ser reatríbuida, não pode ser redeclarada e não pode ser declarada depois.
 // let forma = "Retângulo";
 // let altura = 5;
 // let comprimento = 7;
@@ -22,8 +22,8 @@
 // console.log(area)
 // let area;
 
-//const
-// Block scope, não pode ser reassigned, não pode ser redeclared, não pode ser declarada depois e deve ser definida com um valor.
+//// const
+// Block scope, não pode ser reatribuída, não pode ser redeclarada, não pode ser declarada depois e deve ser definida com um valor.
 
 const forma = "quadrado";            // Boa prática colocar a variável como comentada se não estiver usando-a.
 const altura = 5;
