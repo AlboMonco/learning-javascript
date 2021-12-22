@@ -1,10 +1,9 @@
-arrayNumeros = [1, 2, 3, 4];
-// novaArray = arrayNumeros.concat([2, 3, 4]);
+const numbers = [175, 50, 25];
 
-// console.log(novaArray);
-
-function pegaArray(value){
-    return value >= 2
+function myFunc(total, num) {
+  return total - num;
 }
 
-console.log(arrayNumeros.filter(pegaArray))
+const newNumbers = numbers.reduce(myFunc);
+
+console.log(newNumbers);
