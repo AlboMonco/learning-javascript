@@ -4,7 +4,7 @@
 // TESTE: let array2 = [2];
 // TESTE: console.log(array1.concat(array2));
 
-//// filter() => The filter() method creates a new array filled with elements that pass a test provided by a function. 
+//// filter() => filter() recebe uma função callback, que pode ter até 3 parâmetros, e a função deve retornar somente booleanos. Se for true, ele inclui na outra lista. Se for false, não inclui.
 
 // TESTE: function valor(value){
 // TESTE:     return value >=10;
@@ -63,7 +63,7 @@
 // TESTE: arr.unshift(1);
 // TESTE: console.log(arr);
 
-//// reduce() => utiliza de uma função com alguma operação para usar em alguma array, guarda os resultados preliminares dentro de uma variável que pode ser acessada dentro da função.
+//// reduce() => recebe uma função callback e o valor inicial do acumulador . A função callback recebe 2 parâmetros (acumulador e o elemento da array). Se o acumulador não for definido, o primeiro elemento da array é definido como acumulador da função reduce().
 
 // TESTE: const numbers = [175, 50, 25];
 // TESTE: 

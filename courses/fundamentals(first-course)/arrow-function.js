@@ -24,3 +24,6 @@ const somaNumerosPequenos = (num1, num2) => {
 function algo(){
     return true;
 }
+// esse caso, quando só temos uma linha de instrução dentro da arrow function, não precisamos usar chaves e nem da palavra-chave return.
+
+// Caso você tenha mais de uma linha de instrução dentro de uma arrow function, as chaves {} e a palavra-chave return voltam a ser necessários.
