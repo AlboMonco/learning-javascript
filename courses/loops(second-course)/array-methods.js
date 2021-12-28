@@ -96,4 +96,3 @@
 // TESTE: numbers.splice(2,2,7);
 // TESTE: console.log(numbers);
 
-"parâmetro"
