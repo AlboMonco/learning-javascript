@@ -42,10 +42,38 @@ function criaListaNomes(){
             }
         }
     }
-}
+};
 
 criaListaNomes();
 console.log(listaNomes);
 
 // ...stringQualquer retorna numa array cada caracter da string.
 
+
+
+// spread pode ser usado de várias formas:
+// const pessoa = {
+//      nome: "Enzo",             
+//      idade: 17,
+//      parentesco:"primo",
+//      profissão:"Desenvolvedor Back-End",
+// };
+//  
+// const pessoaComTelefone = {
+//      ...pessoa, telefone: "21972883686"   
+// };
+// 
+// const { idade } = pessoa; // idade = pessoa.idade; 
+//  
+// function imprimeDados({nome, idade}){
+//      console.log(nome,idade);      
+// };   
+//  
+// imprimeDados(pessoa); // "Enzo" 17 
+//  
+//  
+//  
+//  
+//  
+//  
+//  
