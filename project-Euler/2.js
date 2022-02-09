@@ -6,7 +6,7 @@ function sumFibonacci(limit){
     
     let primeiroNumero = 1;
     let segundoNumero = 2;
-    let terceiroNumero = 0;
+    let terceiroNumero;
 
     let soma = 2;
     
