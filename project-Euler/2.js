@@ -1,25 +1,30 @@
-const reducer = (number1,number2) => {number1 + number2};
+/*
+    This code sum all the even fibonacci numbers, given a limit.
+*/
 
-function fibonacci (value){
-    let fibo = [1,2];
-    for (let i = 0; i < value; i++){
-        if (i === Number(fibo[fibo.length - 1] + fibo[fibo.length -2])){
-            fibo.push(i)
-        } 
-    }
-    return fibo;
-}
+function sumFibonacci(limit){
+    
+    let primeiroNumero = 1;
+    let segundoNumero = 2;
+    let terceiroNumero = 0;
 
-function soma(){
-    let soma = 0;
-    let listFibonacci = fibonacci(4000000);
-    for (let i = 0; i < listFibonacci.length; i++){
-        if (listFibonacci[i]%2 === 0){
-            soma += listFibonacci[i]
+    let soma = 2;
+    
+    do {
+        
+        terceiroNumero = primeiroNumero + segundoNumero;
+        primeiroNumero = segundoNumero;
+        segundoNumero = terceiroNumero;
+        
+
+        if (terceiroNumero%2 == 0){
+            soma += terceiroNumero;
         }
-    }
+        
+    } while (terceiroNumero <= limit);
+
     return soma;
 }
 
 
-console.log(soma());
+console.log(sumFibonacci(4000000));
